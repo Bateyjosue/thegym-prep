@@ -1,0 +1,23 @@
+body {
+    box-sizing:border-box;
+    font-familly: sans-serif;
+  }
+  .container {
+    max-height: 100%;
+    height:98vh;
+    display: grid;
+    gap: .8rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 70px;
+    align-items:stretch;
+    
+  }
+  
+  .container > div {
+    border: 1px solid red;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:2rem;
+  }
+  

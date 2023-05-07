@@ -5,7 +5,7 @@
     display: grid;
     height: 98vh;
     gap: .5rem;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 1fr;
   }
   
   .container > div {
@@ -15,10 +15,10 @@
     align-items:center;
     font-size:3rem;
   }
-
+  
   @media screen and (min-width: 680px) {
     .container {
-    grid-template-columns: 1fr;
-      grid-template- rows: 1fr 1fr;
+    grid-template-columns: 120px 1fr;
+      grid-template- rows: 1fr;
     }
   }

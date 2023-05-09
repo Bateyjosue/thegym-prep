@@ -1,0 +1,25 @@
+* {
+  box-sizing:border-box;  
+}
+
+header ul {
+  list-style-type: none;
+  display:flex;
+  gap: 4vh;
+  flex-direction:column;
+  align-items: center;
+  padding: 1vh 4vh;
+  height:90vh;
+/*   background: red; */
+  
+}
+
+
+@media screen and (min-width: 680px) {
+  header ul {
+    font-size:3rem;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:flex-start;
+  }
+}
